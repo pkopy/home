@@ -6,7 +6,7 @@ import went from "../images/went.svg";
 
 export default function Rekuper(props) {
     return (
-        <div style={{position: "relative", backgroundColor:"#bdbdbd", height:300, width: 300, border: "2px solid", display: 'flex', justifyContent:"center"}}>
+        <div style={{position: "relative", backgroundColor:"#bdbdbd", borderRadius:10, height:240, width: 280, border: "2px solid", display: 'flex', justifyContent:"center"}}>
 
                 <div style={{position: "absolute"}}>
                     <img src={blue}/>
