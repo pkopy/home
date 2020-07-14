@@ -8,13 +8,25 @@
 ;
   position: relative;
   top: 60px;
-  left: 25px;
+  left: -95px;
+  /*pointer-events: none;*/
+}
+.went1 {
+  width: 32px;
+  height: 32px
+;
+  position: relative;
+  top: 210px;
+  left: -125px;
   /*pointer-events: none;*/
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .went {
     animation: App-logo-spin infinite 500ms linear;
+  }
+  .went1 {
+    animation: App-logo-spin infinite 600ms linear;
   }
 }
 
