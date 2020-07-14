@@ -1,26 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import blue from './images/blue1.gif'
+import green from './images/green1.gif'
+import went from './images/went.svg'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div style={{position: "relative"}}>
+
+            <div style={{position: "absolute"}}>
+                <img src={blue}/>
+            </div>
+            <div style={{position: "absolute"}}>
+                <img src={green}/>
+            </div>
+            <div className="went" >
+                <img src={went} width={32} style={{marginLeft:'auto', marginRight:'auto'}}/>
+            </div>
+        </div>
+
+    );
 }
+
 
 export default App;
